@@ -1,0 +1,19 @@
+.wcp{
+    display: flex;
+    flex-wrap: wrap;
+}
+.wcp__item{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.wcp__item:last-child{
+    margin-right: 0;
+}
+select[name="attribute_color"] {
+    display: none;
+  }
